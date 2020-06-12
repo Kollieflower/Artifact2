@@ -9,6 +9,7 @@
 
             gtag('config', 'UA-168054076-1');
         </script>
+
         <meta charset="utf-8" />
         <title>Artifact 2 Deck Viewer</title>
         <link rel="stylesheet" href="Styles/Standard.css">
@@ -16,34 +17,36 @@
         <link rel="stylesheet" href="Styles/Cards.css">
     </head>
     <body>
-        <div id="SiteHeader">
-            <div id="SiteHeaderBackground">
-                <video preload="preload" id="header_video" autoplay loop muted>
+        <header class="SiteHeader">
+            <div class="SiteHeaderBackground">
+                <video id="header_video" autoplay loop muted>
                     <source src="Images/Styles/144px.mp4" type="video/mp4">
-                </video>
+                </video> 
             </div>
-            <div id="SiteHeaderInner">
-                <a href="index.html"><div class="SiteHeaderButton SiteHeaderButtonUnselected">
-                    <div class="SiteHeaderButtonText">ARTIFACT 2 CARDS</div>
-                </div></a>
-                <div class="SiteHeaderButton SiteHeaderButtonSelected">
-                    <div class="SiteHeaderButtonText">DECK VIEWER</div>
+            <nav class="SiteHeaderInner">
+                <div class="SiteHeaderLogo">
+                    <img src="Images/Styles/HeaderLogo.png" width="189" height="33">
                 </div>
-                <a href="ReportError.html"><div class="SiteHeaderButton SiteHeaderButtonUnselected">
-                    <div class="SiteHeaderButtonText">REPORT AN ERROR</div>
-                </div></a>
-            </div>
-        </div>
-        <div class="clear"></div>
+                <ul class="SiteHeaderNav">
+                    <li class="SiteHeaderButtonUnselected">
+                        <a class="SiteHeaderButtonText" href="index.html">ARTIFACT 2 CARDS</a>
+                    </li>
+                    <li class="SiteHeaderButtonSelected">
+                        <a class="SiteHeaderButtonText">DECK VIEWER</a>
+                    </li>
+                    <li class="SiteHeaderButtonUnselected">
+                        <a class="SiteHeaderButtonText" href="ReportError.html">REPORT AN ERROR</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
         <div id="PageHeader">
             <div id="PageHeaderTitle" class="RestrictWidth">Deck Viewer</div>
         </div>
         <div id="PageContainer" class="RestrictWidth">
             <div id="DeckViewerPage">
                 <div id="DeckCodeInputContainer">
-                    <div id="DeckCodeInputTitle">
-                        Enter the Deck Code in the box below and then press the Load Deck button.
-                    </div>
+                    <div id="DeckCodeInputTitle">Enter the Deck Code in the box below and then press the Load Deck button.</div>
                     <div>
                         <input type="text" id="DeckCodeInputField" value="" onkeypress="onEnterSubmit(event, LoadDeckFunc);">
                     </div>
@@ -51,21 +54,16 @@
                         <div class="DeckCodeErrorImg">
                             <img src="Images/Styles/CardErr.png">
                         </div>
-                        <div id="DeckCodeErrorMsg">
-                            This deck code is not valid. Please make sure the code is correct.
-                        </div>
+                        <div id="DeckCodeErrorMsg">This deck code is not valid. Please make sure the code is correct.</div>
                         <div class="clear"></div>
                     </div>
                     <div>
                         <button type="button" class="ArtifactButtonSmall" id="LoadDeckButton" onmouseup="LoadDeckFunc();">LOAD DECK</button>
                     </div>
                 </div>
-
                 <div id="DeckViewerDeckOuterContainer">
                     <div id="DeckViewerTitleContainer">
-                        <div id="DeckViewerDeckTitle">
-                            Deck Title
-                        </div>
+                        <div id="DeckViewerDeckTitle">Deck Title</div>
                         <div id="LoadNewDeckButton">
                             <button type="button" class="ArtifactButtonSmall" onmouseup="ViewDiffDeckButton();">VIEW A
                                 DIFFERENT DECK</button>
@@ -77,91 +75,49 @@
                     </div>
 
                     <div id="DeckViewerHeroesContainer">
-                        <div class="DeckViewer_HeroCard" id="DeckViewer_HeroCard1">
-                            &nbsp;
-                        </div>
-                        <div class="DeckViewer_HeroCard" id="DeckViewer_HeroCard2">
-                            &nbsp;
-                        </div>
-                        <div class="DeckViewer_HeroCard" id="DeckViewer_HeroCard3">
-                            &nbsp;
-                        </div>
-                        <div class="DeckViewer_HeroCard" id="DeckViewer_HeroCard4">
-                            &nbsp;
-                        </div>
-                        <div class="DeckViewer_HeroCard" id="DeckViewer_HeroCard5">
-                            &nbsp;
-                        </div>
+                        <div class="DeckViewer_HeroCard" id="DeckViewer_HeroCard1">&nbsp;</div>
+                        <div class="DeckViewer_HeroCard" id="DeckViewer_HeroCard2">&nbsp;</div>
+                        <div class="DeckViewer_HeroCard" id="DeckViewer_HeroCard3">&nbsp;</div>
+                        <div class="DeckViewer_HeroCard" id="DeckViewer_HeroCard4">&nbsp;</div>
+                        <div class="DeckViewer_HeroCard" id="DeckViewer_HeroCard5">&nbsp;</div>
                         <div class="clear"></div>
                     </div>
                     <div id="DeckViewerCardsAndStats">
                         <div id="DeckViewerCardsAndStats_L">
                             <div id="DeckViewerStats">
                                 <div id="DeckViewerCardTypeStats">
-                                    <div id="TotalNumberCards" class="DeckViewerCardAndItemTypeStatsHeader">
-                                        ## Cards
+                                    <div id="TotalNumberCards" class="DeckViewerCardAndItemTypeStatsHeader">## Cards</div>
+                                    <div class="DeckViewerCardTypeContainer">
+                                        <div class="DeckViewerCardTypeSymbol">▨</div>
+                                        <div id="NumberOfCreeps" class="DeckViewerCardTypeAmount">0</div>
                                     </div>
                                     <div class="DeckViewerCardTypeContainer">
-                                        <div class="DeckViewerCardTypeSymbol">
-                                            ▨
-                                        </div>
-                                        <div id="NumberOfCreeps" class="DeckViewerCardTypeAmount">
-                                            0
-                                        </div>
+                                        <div class="DeckViewerCardTypeSymbol">▪</div>
+                                        <div id="NumberOfSpells" class="DeckViewerCardTypeAmount">0</div>
                                     </div>
                                     <div class="DeckViewerCardTypeContainer">
-                                        <div class="DeckViewerCardTypeSymbol">
-                                            ▪
-                                        </div>
-                                        <div id="NumberOfSpells" class="DeckViewerCardTypeAmount">
-                                            0
-                                        </div>
-                                    </div>
-                                    <div class="DeckViewerCardTypeContainer">
-                                        <div class="DeckViewerCardTypeSymbol">
-                                            ▩
-                                        </div>
-                                        <div id="NumberOfTE" class="DeckViewerCardTypeAmount">
-                                            0
-                                        </div>
+                                        <div class="DeckViewerCardTypeSymbol">▩</div>
+                                        <div id="NumberOfTE" class="DeckViewerCardTypeAmount">0</div>
                                     </div>
                                     <div class="clear"></div>
                                 </div>
                                 <div id="DeckViewerItemTypeStats">
-                                    <div id="TotalNumberItems" class="DeckViewerCardAndItemTypeStatsHeader">
-                                        ## Items
+                                    <div id="TotalNumberItems" class="DeckViewerCardAndItemTypeStatsHeader">## Items</div>
+                                    <div class="DeckViewerItemTypeContainer">
+                                        <div class="DeckViewerCardTypeSymbol">▣</div>
+                                        <div id="NumberOfWeapons" class="DeckViewerCardTypeAmount">0</div>
                                     </div>
                                     <div class="DeckViewerItemTypeContainer">
-                                        <div class="DeckViewerCardTypeSymbol">
-                                            ▣
-                                        </div>
-                                        <div id="NumberOfWeapons" class="DeckViewerCardTypeAmount">
-                                            0
-                                        </div>
+                                        <div class="DeckViewerCardTypeSymbol">▤</div>
+                                        <div id="NumberOfArmour" class="DeckViewerCardTypeAmount">0</div>
                                     </div>
                                     <div class="DeckViewerItemTypeContainer">
-                                        <div class="DeckViewerCardTypeSymbol">
-                                            ▤
-                                        </div>
-                                        <div id="NumberOfArmour" class="DeckViewerCardTypeAmount">
-                                            0
-                                        </div>
+                                        <div class="DeckViewerCardTypeSymbol">▥</div>
+                                        <div id="NumberOfAccessories" class="DeckViewerCardTypeAmount">0</div>
                                     </div>
                                     <div class="DeckViewerItemTypeContainer">
-                                        <div class="DeckViewerCardTypeSymbol">
-                                            ▥
-                                        </div>
-                                        <div id="NumberOfAccessories" class="DeckViewerCardTypeAmount">
-                                            0
-                                        </div>
-                                    </div>
-                                    <div class="DeckViewerItemTypeContainer">
-                                        <div class="DeckViewerCardTypeSymbol">
-                                            ▦
-                                        </div>
-                                        <div id="NumberOfConsumables" class="DeckViewerCardTypeAmount">
-                                            0
-                                        </div>
+                                        <div class="DeckViewerCardTypeSymbol">▦</div>
+                                        <div id="NumberOfConsumables" class="DeckViewerCardTypeAmount">0</div>
                                     </div>
                                     <div class="clear"></div>
                                 </div>
@@ -212,13 +168,10 @@
                                     <div class="clear"></div>
                                 </div>
                             </div> <!-- Deck Viewer Stats -->
-                            <div id="ItemCardListContainer">
-                                Item Card List Container
-                            </div>
+                            <div id="ItemCardListContainer">Item Card List Container</div>
                         </div> <!-- DeckViewerCardsAndStats_L -->
                         <div id="DeckViewerCardsAndStats_R">
-                            <div id="NonHeroNonItemCardListContainer">
-                            </div>
+                            <div id="NonHeroNonItemCardListContainer"></div>
                         </div>
                         <div class="clear"></div>
                     </div>

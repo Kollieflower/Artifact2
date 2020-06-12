@@ -15,30 +15,30 @@
         <link rel="stylesheet" href="Styles/Standard.css">
         <link rel="stylesheet" href="Styles/ReportError.css">
     </head>
-
     <body>
-        <div id="SiteHeader">
-            <div id="SiteHeaderBackground">
-                <video preload="preload" id="header_video" autoplay loop muted>
+        <header class="SiteHeader">
+            <div class="SiteHeaderBackground">
+                <video id="header_video" autoplay loop muted>
                     <source src="Images/Styles/144px.mp4" type="video/mp4">
-                </video>
+                </video> 
             </div>
-            <div id="SiteHeaderInner">
-                <a href="index.html">
-                    <div class="SiteHeaderButton SiteHeaderButtonUnselected">
-                        <div class="SiteHeaderButtonText">ARTIFACT 2 CARDS</div>
-                    </div>
-                </a>
-                <a href="DeckViewer.html">
-                    <div class="SiteHeaderButton SiteHeaderButtonUnselected">
-                        <div class="SiteHeaderButtonText">DECK VIEWER</div>
-                    </div>
-                </a>
-                <div class="SiteHeaderButton SiteHeaderButtonSelected">
-                    <div class="SiteHeaderButtonText">REPORT AN ERROR</div>
+            <nav class="SiteHeaderInner">
+                <div class="SiteHeaderLogo">
+                    <img src="Images/Styles/HeaderLogo.png" width="189" height="33">
                 </div>
-            </div>
-        </div>
+                <ul class="SiteHeaderNav">
+                    <li class="SiteHeaderButtonUnselected">
+                        <a class="SiteHeaderButtonText" href="index.html">ARTIFACT 2 CARDS</a>
+                    </li>
+                    <li class="SiteHeaderButtonUnselected">
+                        <a class="SiteHeaderButtonText" href="DeckViewer.html">DECK VIEWER</a>
+                    </li>
+                    <li class="SiteHeaderButtonSelected">
+                        <a class="SiteHeaderButtonText">REPORT AN ERROR</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
         <div class="clear"></div>
         <div id="PageHeader">
             <div id="PageHeaderTitle" class="RestrictWidth">Report an error</div>

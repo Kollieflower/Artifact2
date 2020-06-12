@@ -28,7 +28,7 @@ body {
     display: block;
     background-color: #0e0c10;
 }
-#SiteHeader {
+.SiteHeader {
     position: relative;
     width: 100%;
     height: 50px;
@@ -37,7 +37,7 @@ body {
     z-index: 1;
     border-bottom: 2px solid black;
 }
-#SiteHeaderBackground {
+.SiteHeaderBackground {
     position: relative;
     z-index: -1;
     width: 100%;
@@ -45,33 +45,49 @@ body {
     text-align: center;
     overflow: hidden;
 }
-#SiteHeaderInner {
+.SiteHeaderInner {
+    display: flex;
+    align-items: center;
     position: relative;
     margin: 0 auto;
-    padding-left: 220px;
-    width: 880px;
+    width: 1100px;
     height: 50px;
     margin-top: -50px;
-    background-image: url('../Images/Styles/HeaderLogo.png');
-    background-position: center left;
-    background-repeat: no-repeat;
     color: white;
 }
-.SiteHeaderButton {
-    height: 37px;
+.SiteHeaderLogo {
+    height: 50px;
+    width: 192px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.SiteHeaderNav {
+    display: flex;
+
+    list-style: none;
+    margin: 0;
+    margin-left: 30px;
+    padding: 0;
+}
+.SiteHeaderNav li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
     width: 190px;
     border-right: 2px solid black;
-    float: left;
     font-family: 'Open Sans',sans-serif;
-    color: #ddd;
     font-size: 14pt;
-    padding-top: 13px;
-    text-align: center;
     transform: skew(-30deg);
-    cursor: pointer;
+}
+.SiteHeaderNav a {
+    color: #ddd;
+    text-decoration: none;
 }
 .SiteHeaderButtonUnselected {
     background-color: rgba(150,43,222,0.05);
+    cursor: pointer;
 }
 .SiteHeaderButtonUnselected:hover {
     background-color: rgba(150,43,222,0.05);
@@ -81,8 +97,7 @@ body {
     background-color: rgba(65, 46, 77, 0.45);
     background-image: url('../Images/Styles/SiteHeaderButtonActive_190px.png');
     text-shadow: 0 0 20px white;
-    height: 37px;
-    padding-top: 13px;
+    cursor: default;
 }
 .SiteHeaderButtonText {
     transform: skew(30deg);
@@ -197,7 +212,7 @@ body {
     }
 }
 @media (pointer:coarse) and (max-width: 1100px){
-    #SiteHeaderInner{
+    .SiteHeaderInner{
         width: unset;
     }
 }

@@ -15,37 +15,38 @@
         <link rel="preload" href="Styles/Standard.css" as="style">
         <link rel="preload" href="Styles/Cards.css" as="style">
         <link rel="preload" href="Styles/CardBrowser.css" as="style">
+
         <link rel="stylesheet" href="Styles/Standard.css">
         <link rel="stylesheet" href="Styles/Cards.css">
         <link rel="stylesheet" href="Styles/CardBrowser.css">
     </head>
     <body>
-        <div id="SiteHeader">
-            <div id="SiteHeaderBackground">
-                <video preload="preload" id="header_video" autoplay loop muted>
+        <header class="SiteHeader">
+            <div class="SiteHeaderBackground">
+                <video id="header_video" autoplay loop muted>
                     <source src="Images/Styles/144px.mp4" type="video/mp4">
                 </video> 
             </div>
-            <div id="SiteHeaderInner">
-                <div class="SiteHeaderButton SiteHeaderButtonSelected">
-                    <div class="SiteHeaderButtonText">ARTIFACT 2 CARDS</div>
+            <nav class="SiteHeaderInner">
+                <div class="SiteHeaderLogo">
+                    <img src="Images/Styles/HeaderLogo.png" width="189" height="33">
                 </div>
-                <a href="DeckViewer.html">
-                    <div class="SiteHeaderButton SiteHeaderButtonUnselected">
-                        <div class="SiteHeaderButtonText">DECK VIEWER</div>
-                    </div>
-                </a>
-                <a href="ReportError.html">
-                    <div class="SiteHeaderButton SiteHeaderButtonUnselected">
-                        <div class="SiteHeaderButtonText">REPORT AN ERROR</div>
-                    </div>
-                </a>
-            </div>
-        </div>
-        <div class="clear"></div>
+                <ul class="SiteHeaderNav">
+                    <li class="SiteHeaderButtonSelected">
+                        <a class="SiteHeaderButtonText">ARTIFACT 2 CARDS</a>
+                    </li>
+                    <li class="SiteHeaderButtonUnselected">
+                        <a class="SiteHeaderButtonText" href="DeckViewer.html">DECK VIEWER</a>
+                    </li>
+                    <li class="SiteHeaderButtonUnselected">
+                        <a class="SiteHeaderButtonText" href="ReportError.html">REPORT AN ERROR</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
         <div id="PageHeader">
             <div id="PageHeaderTitle" class="RestrictWidth">All Artifact 2.0 Cards</div>
-            <div id="PageHeaderSubtitle" class="RestrictWidth">Updated to 9th June 2020 Beta Patch</div>
+            <div id="PageHeaderSubtitle" class="RestrictWidth">Updated to 5th June 2020 Beta Patch</div>
         </div>
         <div id="CVOptions">
             <div class="RestrictWidth">
@@ -80,7 +81,7 @@
                 </div>
                 <div class="CVOptionContainer floatr">
                     <div class="CVOptionName">CARD NAME AND TEXT SEARCH</div>
-                    <input type="text" id="CardTextFilter" value="" onkeyup="GenerateCardListCardBrowser(CardViewerFilter);">
+                    <input type="text" id="CardTextFilter" value="" onkeyup="GenerateCardViewerPage(CardViewerFilter);">
                     <div class="clear"></div>
                 </div>
                 <div class="CVOptionContainer floatr">
@@ -192,10 +193,7 @@
                 <div id="SpecialTextDesc">Desc</div>
             </div>
             <input type="text" value="200115_0" id="hiddenClipboard">
-        </div>
-        <script src="main.js"></script>
-        <script src="js/CardGenerator.js"></script>
-        <script src="js/OrderCardList.js"></script>
-        <script>InitialisePage("CardBrowser");</script>
+        </div> 
+        <script src="main.js"></script>            
     </body>
 </html>
