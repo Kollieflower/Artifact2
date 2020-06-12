@@ -1,28 +1,33 @@
-
 .CardContainer200w {
     width: 200px;
     font-size: 13pt;
 }
+
 .CardContainer300w {
     width: 300px;
     font-size: 20pt;
 }
+
 .CardContainer400w {
     width: 400px;
     font-size: 26pt;
 }
+
 .CardContainer500w {
     width: 500px;
     font-size: 34pt;
 }
+
 .CardContainerMiniPreview {
     width: 170px;
     font-size: 11pt;
 }
+
 .CardContainerDeckViewerMiniPreview {
     width: 220px;
     font-size: 14.5pt;
 }
+
 .CardContainer_LoadingPlaceholder {
     width: calc(100% - 18px);
     border: 9px solid #938f8c;
@@ -32,6 +37,7 @@
     background-size: 100%;
     padding-bottom: 153%;
 }
+
 .CardContainer_Error {
     width: calc(100% - 18px);
     border: 9px solid #938f8c;
@@ -41,15 +47,17 @@
     background-size: 100%;
     padding-bottom: 165%;
 }
+
 .LoadingCardThrobberContainer {
     margin-top: 6%;
     margin-left: 84%;
 }
+
 .CardHeaderOuter {
     color: #eee;
     text-shadow: 2px 2px 2px black;
     overflow: hidden;
-    white-space: nowrap; 
+    white-space: nowrap;
     font-family: 'PT Sans Narrow', sans-serif;
     width: 100%;
     border-radius: 4% 4% 0 0 / 23% 23% 0 0;
@@ -57,10 +65,12 @@
     background-size: 100%;
     overflow: visible;
 }
+
 .CardHeaderInner {
     padding-top: 1%;
     padding-bottom: 15%;
 }
+
 .CardHeaderLeftPer {
     width: 24.5%;
     margin-top: -4.5%;
@@ -69,6 +79,7 @@
     padding-top: 3%;
     padding-bottom: 3%;
 }
+
 .CardHeaderLeftPer_ManaCost {
     font-family: 'Domine', sans-serif;
     font-size: 1.6em;
@@ -77,33 +88,41 @@
     background-position: center;
     background-repeat: no-repeat;
 }
-.CardHeaderLeftPer_HeroIconBackCircle, .CardHeaderLeftPer_CrossLane, .CardHeaderLeftPer_Quick {
+
+.CardHeaderLeftPer_HeroIconBackCircle,
+.CardHeaderLeftPer_CrossLane,
+.CardHeaderLeftPer_Quick {
     background-position: center;
     background-repeat: no-repeat;
     margin-bottom: 0.3%;
 }
+
 .CardHeaderLeftPer_HeroIconBackCircle {
     margin-top: -2%;
     background-image: url('../Images/Cards/Styling/GreyCircle.png');
     background-size: 62%;
 }
+
 .CardHeaderLeftPer_CrossLane {
     font-family: 'Domine', sans-serif;
     font-size: 1.6em;
     background-image: url('../Images/Cards/Styling/ManaCrystal_CrossLane.png');
     background-size: 95%;
 }
+
 .CardHeaderLeftPer_Quick {
     font-family: 'Domine', sans-serif;
     font-size: 1.6em;
     background-image: url('../Images/Cards/Styling/ManaCrystal_Quick.png');
     background-size: 95%;
 }
+
 .CardHeaderLeftPer img {
     padding-top: 4%;
     width: 45%;
     margin-bottom: -10%;
 }
+
 .CardHeaderCardName {
     font-family: 'RadianceCon', sans-serif;
     letter-spacing: -0.02em;
@@ -112,78 +131,95 @@
     float: left;
     padding-top: 2%;
 }
+
 .CardCentreContainerPer {
     width: 100%;
     background-color: grey;
     background-size: auto 100%;
     background-position: center;
 }
+
 .CardCentreTopPer {
     padding-bottom: 75%;
     background-size: 100%;
     background-position: center;
 }
+
 .CardCentreBotPer_Stats {
     padding-bottom: 56%;
 }
+
 .CardCentreBotPer_NoStats {
     padding-bottom: 72%;
 }
+
 .CardAbilityContainer {
     width: 100%;
     margin-bottom: -40%;
 }
+
 .CardAbilityIconPer {
     float: left;
     width: 29.4%;
     margin-left: 2.6%;
     margin-top: 8%;
 }
+
 .CardAbilityIconPer img {
     width: 86%;
     margin-left: 7%;
     margin-top: 7%;
 }
+
 .CardAbilityBorderStyle1 {
     background-image: url('../Images/Cards/Styling/AbilityBorder.png');
     background-size: 100%;
     background-position: center;
     background-repeat: no-repeat;
 }
+
 .CardAbilityBorderStyle2 {
     background-image: url('../Images/Cards/Styling/AbilityBorder2.png');
     background-size: 100%;
     background-position: center;
     background-repeat: no-repeat;
 }
+
 .CardCentreSplitBotBG1 {
     background-image: url('../Images/Cards/Styling/CardBot_Opaque.jpg');
     background-size: 100%;
 }
+
 .CardCentreSplitBotBG2 {
     background-image: url('../Images/Cards/Styling/CardBot_Translucent.png');
     background-size: 100%;
 }
-.CardCentreSplitBotBG3 { 
+
+.CardCentreSplitBotBG3 {
     background-image: url('../Images/Cards/Styling/CardBot_ItemT1.png');
     background-size: 100%;
 }
-.CardCentreSplitBotBG4 { 
+
+.CardCentreSplitBotBG4 {
     background-image: url('../Images/Cards/Styling/CardBot_ItemT2.png');
     background-size: 100%;
 }
-.CardCentreSplitBotBG5 { 
+
+.CardCentreSplitBotBG5 {
     background-image: url('../Images/Cards/Styling/CardBot_ItemT3.png');
     background-size: 100%;
 }
-.CardCentreSplitBotBG6 { 
+
+.CardCentreSplitBotBG6 {
     background-image: url('../Images/Cards/Styling/CardBot_ItemT4.png');
     background-size: 100%;
 }
-.CardCentreSplitBotBG7 { 
+
+.CardCentreSplitBotBG7 {
     background-image: url('../Images/Cards/Styling/CardBot_ItemT5.png');
     background-size: 100%;
 }
+
 .CardCentreSplitBotText {
     padding: 8% 5% 0 5%;
     margin-bottom: -65%;
@@ -193,17 +229,21 @@
     color: #eee;
     text-shadow: 2px 2px 2px black;
 }
+
 .CardCentreKeyWordText {
     text-decoration-line: underline;
     text-decoration-style: dashed;
 }
+
 .CardCentreSplitBotText img {
     width: 6%;
 }
+
 .CardBottomSetIconM {
     height: 10px;
     width: 100%;
 }
+
 .CardBottomSetIconContainerM {
     height: 35px;
     width: 35px;
@@ -211,9 +251,11 @@
     top: -17px;
     left: 140px;
 }
+
 .CardBottomSetIconBarPer {
     width: 100%;
 }
+
 .CardBottomSetIconContainerPer {
     position: relative;
     background-position: center;
@@ -225,24 +267,31 @@
     margin-top: -4.8%;
     left: 45%;
 }
+
 .CardBottomIconSet0-0 {
     background-image: url('../Images/SetIcons/0-0.png'), url('../Images/Cards/Styling/CardSetIconTexture.png');
 }
+
 .CardBottomIconSet1-1 {
     background-image: url('../Images/SetIcons/1-1.png'), url('../Images/Cards/Styling/CardSetIconTexture.png');
 }
+
 .CardBottomIconSet1-2 {
     background-image: url('../Images/SetIcons/1-2.png'), url('../Images/Cards/Styling/CardSetIconTexture.png');
 }
+
 .CardBottomIconSet1-3 {
     background-image: url('../Images/SetIcons/1-3.png'), url('../Images/Cards/Styling/CardSetIconTexture.png');
 }
+
 .CardBottomIconSet1-4 {
     background-image: url('../Images/SetIcons/1-4.png'), url('../Images/Cards/Styling/CardSetIconTexture.png');
 }
+
 .CardBottomIconSet1-5 {
     background-image: url('../Images/SetIcons/1-5.png'), url('../Images/Cards/Styling/CardSetIconTexture.png');
 }
+
 .CardStatsPer {
     width: 100%;
     margin-top: -4.8%;
@@ -253,6 +302,7 @@
     background-image: url('../Images/Cards/Styling/CardStatsTexture.png');
     background-size: 100%;
 }
+
 .CardStatInnerPer {
     font-family: 'Ubuntu', sans-serif;
     color: #ddd;
@@ -267,6 +317,7 @@
     background-repeat: no-repeat;
     background-size: 25%;
 }
+
 .CardStatInnerPerRad {
     font-family: 'Radiance', sans-serif;
     color: #ddd;
@@ -281,15 +332,19 @@
     background-repeat: no-repeat;
     background-size: 25%;
 }
+
 .CardStatAttackA {
     background-image: url('../Images/Cards/Styling/Att.png');
 }
+
 .CardStatArmourA {
     background-image: url('../Images/Cards/Styling/Ar.png');
 }
+
 .CardStatHealthA {
     background-image: url('../Images/Cards/Styling/HP.png');
 }
+
 .CardGoldValueOldStyle {
     background-image: url('../Images/Cards/Styling/Gold.png');
     background-size: auto 99%;
@@ -306,6 +361,7 @@
     margin-bottom: -9%;
     margin-top: -8.5%;
 }
+
 .CardGoldValue {
     background-image: url('../Images/Cards/Styling/Gold.png');
     background-size: auto 99%;
@@ -322,6 +378,7 @@
     margin-bottom: -8%;
     left: 44%;
 }
+
 .CardImprovementTypeShell {
     background-size: auto 100%;
     background-position: center;
@@ -335,15 +392,19 @@
     margin-bottom: -12.5%;
     left: 39%;
 }
+
 .CardImprovementTypeShellPassive {
     background-image: url('../Images/Cards/Styling/ImprovementPassive.png');
 }
+
 .CardImprovementTypeShellActive {
     background-image: url('../Images/Cards/Styling/ImprovementActive.png');
 }
+
 .CardImprovementTypeShellReactive {
     background-image: url('../Images/Cards/Styling/ImprovementReactive.png');
 }
+
 .CardImprovementTypeShell img {
     width: 67%;
     margin-left: 17%;
@@ -362,18 +423,23 @@
 .CardColourR {
     background-color: #7b1918;
 }
+
 .CardColourG {
     background-color: #476d36;
 }
+
 .CardColourU {
     background-color: #1f5e7f;
 }
+
 .CardColourB {
     background-color: #26252a;
 }
+
 .CardColourI {
     background-color: #d68f27;
 }
+
 .CardColourC {
     background-color: #79756d;
 }

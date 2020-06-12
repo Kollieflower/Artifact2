@@ -4,23 +4,27 @@
     min-width: 300px;
     padding-right: 5px;
 }
+
 #CardViewerPage_Centre {
     margin-top: 10px;
     float: left;
     width: 320px;
     padding: 0 10px;
 }
+
 @media (pointer:coarse) {
     #CardViewerPage_Centre {
         width: 392px;
     }
 }
+
 #CardViewerPage_Right {
     margin-top: 10px;
     float: left;
     width: calc(47% - 175px);
     max-height: 700px;
 }
+
 #CardContainerCardBrowser {
     width: 320px;
     font-size: 20pt;
@@ -33,77 +37,92 @@
     color: #ddd;
     font-family: 'Radiance', sans-serif;
 }
+
 .LoadingCardList {
     font-size: 20pt;
     letter-spacing: 3pt;
     text-align: center;
 }
+
 #CardViewerCardIconTitleContainer {
     height: 75px;
 }
+
 #CardViewerCurrentCardIcon {
     width: 75px;
     height: 75px;
     float: left;
 }
+
 #CardViewerCurrentCardIcon img {
     height: 100%;
     width: 100%;
 }
+
 .CardViewerCurrentCardTitleTextContainer {
     float: left;
     margin-top: -5px;
 }
+
 #CardViewerPageCardTitle {
     font-size: 28pt;
     color: #ddd;
-    font-family: 'Radiance',sans-serif;
+    font-family: 'Radiance', sans-serif;
     font-weight: 700;
     text-shadow: 2px 2px 2px black;
     height: 45px;
 }
+
 #CardViewerPageCardSubtitle {
     font-size: 18pt;
     color: #aaa;
-    font-family: 'Radiance',sans-serif;
+    font-family: 'Radiance', sans-serif;
     font-weight: 700;
 }
+
 .CardViewerPageSingleAbilityContainer {
     margin-top: 10px;
-    background-color: rgba(255,255,255,0.1);
+    background-color: rgba(255, 255, 255, 0.1);
     font-family: 'Radiance', sans-serif;
     border-radius: 10px;
     text-shadow: 2px 2px 2px black;
 }
+
 .CardViewerPageAbilityIcon {
     height: 100%;
     float: left;
     width: 55px;
     padding: 8px 8px 0 8px;
 }
+
 .CardViewerPageAbilityIcon img {
     width: 100%;
 }
+
 .CardViewerPageAbilityTopText {
     float: left;
     padding: 8px;
     width: calc(100% - 87px);
 }
+
 .CardViewerPageAbilityName {
     color: #ddd;
     font-size: 16pt;
 }
+
 .CardViewerPageAbilityType {
     color: #aaa;
     font-size: 14pt;
 }
+
 .CardViewerPageAbilityText {
     color: #ddd;
     font-size: 13pt;
     padding: 4px 8px;
-    background-color: rgba(0,0,0,0.3);
+    background-color: rgba(0, 0, 0, 0.3);
     border-radius: 0 0 10px 10px;
 }
+
 #CardViewerPageSignatureContainer {
     cursor: pointer;
     margin-top: 10px;
@@ -111,68 +130,86 @@
     border-radius: 10px;
     text-shadow: 2px 2px 2px black;
 }
+
 .CardViewerPageSignatureContainerR {
-    background-color: rgba(255,100,100,0.2);
+    background-color: rgba(255, 100, 100, 0.2);
 }
+
 .CardViewerPageSignatureContainerU {
-    background-color: rgba(100,100,255,0.2);
+    background-color: rgba(100, 100, 255, 0.2);
 }
+
 .CardViewerPageSignatureContainerG {
-    background-color: rgba(100,255,100,0.2);
+    background-color: rgba(100, 255, 100, 0.2);
 }
+
 .CardViewerPageSignatureContainerB {
-    background-color: rgba(20,20,20,0.6);
+    background-color: rgba(20, 20, 20, 0.6);
 }
+
 .CardViewerPageSignatureContainerC {
-    background-color: rgba(120,120,120,0.6);
+    background-color: rgba(120, 120, 120, 0.6);
 }
+
 .CardViewerPageSignatureContainerI {
     background-color: rgba(224, 201, 170, 0.3);
 }
+
 .CardViewerPageSigCardText {
     font-size: 14pt;
 }
+
 .CardViewerPageSigCardTextR {
     color: #caa;
 }
+
 .CardViewerPageSigCardTextU {
     color: #aac;
 }
+
 .CardViewerPageSigCardTextB {
     color: #999;
 }
+
 .CardViewerPageSigCardTextG {
     color: #aca;
 }
+
 .CardViewerPageSigCardTextC {
     color: #bbb;
 }
+
 .CardViewerPageSigCardTextI {
     color: #C29E6E;
 }
+
 #CardViewerPageCardLore {
     display: block;
     font-size: 11pt;
     color: #999;
     font-weight: 700;
-    font-family: 'Open Sans',sans-serif;
+    font-family: 'Open Sans', sans-serif;
     padding-top: 20px;
     text-align: justify;
 }
+
 #CardViewerPageCardLoreMobile {
     display: none;
 }
+
 #CardViewerPageCardLoreTextTag {
     font-style: italic;
     color: #888;
     padding-top: 10px;
 }
+
 #CardPreviewTooltip {
     position: absolute;
     z-index: 3;
     display: none;
 }
-#hiddenClipboard{
+
+#hiddenClipboard {
     opacity: 0;
 }
 
@@ -184,108 +221,134 @@
     box-shadow: 1px 1px 5px black;
     cursor: pointer;
 }
+
 .CardListItemContainerR {
-    background-image: url('../Images/Styles/CardList_FactionRed_1000px.png'), linear-gradient(170deg, rgba(59,8,16,0.8) 20%, rgba(103,14,28,0.3));
+    background-image: url('../Images/Styles/CardList_FactionRed_1000px.png'), linear-gradient(170deg, rgba(59, 8, 16, 0.8) 20%, rgba(103, 14, 28, 0.3));
     background-position: top right;
     background-size: 500px 100%;
 }
+
 .CardListItemContainerB {
-    background-image: url('../Images/Styles/CardList_FactionBlack_1000px.png'), linear-gradient(170deg, rgba(42,41,47,0.8) 20%, rgba(28,27,32,0.3));
+    background-image: url('../Images/Styles/CardList_FactionBlack_1000px.png'), linear-gradient(170deg, rgba(42, 41, 47, 0.8) 20%, rgba(28, 27, 32, 0.3));
     background-position: top right;
     background-size: 500px 100%;
 }
+
 .CardListItemContainerU {
-    background-image: url('../Images/Styles/CardList_FactionBlue_1000px.png'), linear-gradient(170deg, rgba(11,53,78,0.8) 20%, rgba(14,73,105,0.3));
+    background-image: url('../Images/Styles/CardList_FactionBlue_1000px.png'), linear-gradient(170deg, rgba(11, 53, 78, 0.8) 20%, rgba(14, 73, 105, 0.3));
     background-position: top right;
     background-size: 500px 100%;
 }
+
 .CardListItemContainerG {
-    background-image: url('../Images/Styles/CardList_FactionGreen_1000px.png'), linear-gradient(170deg, rgba(62,90,50,0.8) 20%, rgba(47,72,36,0.3));
+    background-image: url('../Images/Styles/CardList_FactionGreen_1000px.png'), linear-gradient(170deg, rgba(62, 90, 50, 0.8) 20%, rgba(47, 72, 36, 0.3));
     background-position: top right;
     background-size: 500px 100%;
 }
+
 .CardListItemContainerI {
-    background: linear-gradient(170deg, rgba(122, 92, 34,0.8) 20%, rgba(102, 76, 28,0.3));
+    background: linear-gradient(170deg, rgba(122, 92, 34, 0.8) 20%, rgba(102, 76, 28, 0.3));
 }
+
 .CardListItemContainerC {
-    background: linear-gradient(170deg, rgba(56, 62, 55,0.8) 20%, rgba(56, 62, 55,0.3));
+    background: linear-gradient(170deg, rgba(56, 62, 55, 0.8) 20%, rgba(56, 62, 55, 0.3));
 }
+
 .CardListItemContainerR:hover {
-    background-image: url('../Images/Styles/CardList_FactionRed_1000px.png'), linear-gradient(170deg, rgba(59,8,16,0.9) 20%, rgb(103,14,28,0.6));
+    background-image: url('../Images/Styles/CardList_FactionRed_1000px.png'), linear-gradient(170deg, rgba(59, 8, 16, 0.9) 20%, rgb(103, 14, 28, 0.6));
 }
+
 .CardListItemContainerB:hover {
-    background-image: url('../Images/Styles/CardList_FactionBlack_1000px.png'), linear-gradient(170deg, rgba(47,46,52,0.9) 20%, rgba(33,32,37,0.6));
+    background-image: url('../Images/Styles/CardList_FactionBlack_1000px.png'), linear-gradient(170deg, rgba(47, 46, 52, 0.9) 20%, rgba(33, 32, 37, 0.6));
 }
+
 .CardListItemContainerU:hover {
-    background-image: url('../Images/Styles/CardList_FactionBlue_1000px.png'), linear-gradient(170deg, rgba(11,53,78,0.9) 20%, rgba(14,73,105,0.6));
+    background-image: url('../Images/Styles/CardList_FactionBlue_1000px.png'), linear-gradient(170deg, rgba(11, 53, 78, 0.9) 20%, rgba(14, 73, 105, 0.6));
 }
+
 .CardListItemContainerG:hover {
-    background-image: url('../Images/Styles/CardList_FactionGreen_1000px.png'), linear-gradient(170deg, rgba(62,90,50,0.9) 20%, rgba(47,72,36,0.6));
+    background-image: url('../Images/Styles/CardList_FactionGreen_1000px.png'), linear-gradient(170deg, rgba(62, 90, 50, 0.9) 20%, rgba(47, 72, 36, 0.6));
 }
+
 .CardListItemContainerI:hover {
-    background: linear-gradient(170deg, rgba(122, 92, 34,0.9) 20%, rgba(102, 76, 28,0.6));
+    background: linear-gradient(170deg, rgba(122, 92, 34, 0.9) 20%, rgba(102, 76, 28, 0.6));
 }
+
 .CardListItemContainerC:hover {
-    background: linear-gradient(170deg, rgba(56, 62, 55,0.9) 20%, rgba(56, 62, 55,0.6));
+    background: linear-gradient(170deg, rgba(56, 62, 55, 0.9) 20%, rgba(56, 62, 55, 0.6));
 }
+
 .CardList_CardMiniPicture {
     width: 45px;
     height: 45px;
     float: left;
-    background-color: rgba(0,0,0,0.6);
+    background-color: rgba(0, 0, 0, 0.6);
 }
+
 .CardList_CardMiniPicture img {
     width: 100%;
 }
+
 .CardList_CardTypeIcon {
     width: 22px;
-    margin:11px 0 0 1px;
+    margin: 11px 0 0 1px;
     height: 22px;
     float: left;
     background-size: 90%;
     background-repeat: no-repeat;
     background-position: center;
 }
+
 .CardList_CardTypeIconHero {
     background-image: url('../Images/MiscIcons/Hero.png');
 }
+
 .CardList_CardTypeIconCreep {
     background-image: url('../Images/MiscIcons/Creep.png');
 }
+
 .CardList_CardTypeIconSpell {
     background-image: url('../Images/MiscIcons/Spell.png');
 }
+
 .CardList_CardTypeIconTE {
     background-image: url('../Images/MiscIcons/TowerEnchantment.png');
 }
+
 .CardList_CardTypeIconWeapon {
     background-image: url('../Images/MiscIcons/Weapon.png');
 }
+
 .CardList_CardTypeIconArmor {
     background-image: url('../Images/MiscIcons/Armor.png');
 }
+
 .CardList_CardTypeIconAccessory {
     background-image: url('../Images/MiscIcons/Accessory.png');
 }
+
 .CardList_CardTypeIconConsumable {
     background-image: url('../Images/MiscIcons/Consumable.png');
 }
+
 .CardList_ManaCost {
     background-image: url('../Images/Styles/ManaIconCL.png');
     background-size: 100%;
     font-family: 'Domine', sans-serif;
 }
+
 .CardList_GoldCost {
     background-image: url('../Images/Styles/GC.png');
     background-size: 100%;
     font-family: 'Radiance', sans-serif;
     letter-spacing: -0.1em;
 }
+
 .CardList_Cost {
     font-size: 21pt;
     text-align: center;
     width: 36px;
-    margin:4px 0 0 2px;
+    margin: 4px 0 0 2px;
     padding-top: 2px;
     height: 34px;
     float: left;
@@ -294,6 +357,7 @@
     background-position: center;
     background-repeat: no-repeat;
 }
+
 .CardList_CardName {
     width: calc(100% - 116px);
     height: 34px;
@@ -307,87 +371,100 @@
 .CardDetailsPanel {
     text-align: center;
     margin-top: 10px;
-    background-color: rgba(255,255,255,0.1);
+    background-color: rgba(255, 255, 255, 0.1);
     font-family: 'Radiance', sans-serif;
     border-radius: 10px;
     text-shadow: 2px 2px 2px black;
     width: 100%;
 }
 
-#CardDetailsPanelLeftArrow, #CardDetailsPanelRightArrow {
+#CardDetailsPanelLeftArrow,
+#CardDetailsPanelRightArrow {
     width: 40px;
     height: 90px;
     float: left;
-    background-color: rgba(0,0,0,0.3);
+    background-color: rgba(0, 0, 0, 0.3);
 }
+
 #CardDetailsPanelLeftArrow {
     border-radius: 10px 0 0 10px;
 }
+
 #CardDetailsPanelRightArrow {
     border-radius: 0 10px 10px 0;
 }
+
 .CardDetailsPanelCentre {
     width: calc(100% - 80px);
     float: left;
 }
+
 #CardDetailsPanelCardTitle {
     font-size: 26pt;
     color: #ddd;
-    font-family: 'Radiance',sans-serif;
+    font-family: 'Radiance', sans-serif;
     font-weight: 700;
     text-shadow: 2px 2px 2px black;
     overflow: hidden;
     /*white-space: nowrap;*/
 }
+
 #CardDetailsPanelCardType {
     font-size: 16pt;
     color: #aaa;
-    font-family: 'Radiance',sans-serif;
+    font-family: 'Radiance', sans-serif;
     font-weight: 700;
     margin-top: -6px;
 }
+
 #CardVersionSelector {
-    background: rgb(50,50,50); 
-    font-family: 'Radiance',sans-serif;
+    background: rgb(50, 50, 50);
+    font-family: 'Radiance', sans-serif;
     font-size: 12pt;
     /*border: hidden; */
-    border: 1px solid rgba(255,255,255,0.2);
+    border: 1px solid rgba(255, 255, 255, 0.2);
     text-align: center;
-    background-image: none; 
+    background-image: none;
     height: 100%;
     min-width: 10%;
-    color: #aaa; 
-    cursor: pointer; 
-    border-radius:4px; 
+    color: #aaa;
+    cursor: pointer;
+    border-radius: 4px;
 }
+
 #CardDetailsPanelBottomText {
     color: #aaa;
     font-size: 11pt;
     padding: 4px 8px;
 }
+
 #CVOptions {
     min-height: 50px;
     margin-bottom: 10px;
     position: sticky;
-    top:0;
-    background-color: rgba(26,24,29,0.7);
+    top: 0;
+    background-color: rgba(26, 24, 29, 0.7);
     border-bottom: 2px solid black;
 }
+
 .CVOptionContainer {
     padding: 5px;
 }
+
 .CVOptionName {
     font-family: 'Radiance', sans-serif;
     color: #aaa;
     font-size: 12pt;
     text-shadow: 2px 2px 10px black;
 }
+
 .CVOptionButton {
     float: left;
     margin: 2px;
     background-position: center;
     cursor: pointer;
 }
+
 .CVOptionButtonUnselected {
     width: 30px;
     height: 30px;
@@ -400,64 +477,80 @@
     border: 1px solid #ddf;
     box-shadow: 0 0 4px 2px #aaf;
 }
+
 #CVOptionLayout1 {
     background-image: url('../Images/Styles/ViewStyle1.png');
 }
+
 #CVOptionLayout2 {
     background-image: url('../Images/Styles/ViewStyle2.png');
 }
+
 #ColourFilterR {
     background-color: #7b1918;
 }
+
 #ColourFilterU {
     background-color: #1f5e7f;
 }
+
 #ColourFilterB {
     background-color: #26252a;
 }
+
 #ColourFilterG {
     background-color: #476d36;
 }
+
 #ColourFilterC {
     background-color: #79756d;
 }
+
 .ItemFilter {
     background-position: center;
     background-repeat: no-repeat;
     background-color: #333749;
 }
-#ItemFilterWeapon{
+
+#ItemFilterWeapon {
     background-image: url('../Images/Styles/WeaponFilter.png');
 }
+
 #ItemFilterArmor {
     background-image: url('../Images/Styles/ArmorFilter.png');
 }
+
 #ItemFilterAccessory {
     background-image: url('../Images/Styles/AccessoryFilter.png');
 }
+
 #ItemFilterConsumable {
     background-image: url('../Images/Styles/ConsumableFilter.png');
 }
+
 #HiddenFilterUncollectable {
     background-color: #333749;
     background-image: url('../Images/Styles/UncollectableFilter.png');
     background-position: center;
     background-repeat: no-repeat;
 }
+
 #HiddenFilterSignature {
     background-color: #333749;
     background-image: url('../Images/Styles/SignatureFilter.png');
     background-position: center;
     background-repeat: no-repeat;
 }
+
 #FilterIncludeAbilityText {
     background-color: #333749;
     background-image: url('../Images/Styles/AbilityTextFilter.png');
     background-position: center;
     background-repeat: no-repeat;
 }
+
 #CardTextFilter {
-    background-color: rgba(255,255,255,0.1);
+    background-color: rgba(255, 255, 255, 0.1);
     font-family: "radiance", sans-serif;
     font-size: 20pt;
     color: #eee;
@@ -479,6 +572,7 @@
     float: left;
     margin-bottom: 9px;
 }
+
 .CVCHeaderItems {
     width: 100%;
     font-family: 'Radiance', sans-serif;
@@ -486,53 +580,67 @@
     font-size: 18pt;
     margin-bottom: 9px;
 }
+
 .CVCInnerContainer {
     width: 25%;
     float: left;
     min-height: 20px;
     margin-bottom: 20px;
 }
+
 .CVCInnerContainerItems {
     width: 100%;
     min-height: 20px;
     margin-bottom: 20px;
 }
+
 .CVCOuterContainer80 {
     min-width: 80%;
     min-height: 10px;
     float: left;
 }
+
 .CVCOuterContainer20 {
     width: 20%;
     float: left;
 }
-#CVCOuterContainerR, #CVCOuterContainerU, #CVCOuterContainerB, #CVCOuterContainerG {
+
+#CVCOuterContainerR,
+#CVCOuterContainerU,
+#CVCOuterContainerB,
+#CVCOuterContainerG {
     width: 100%;
 }
+
 .CVCCardListing {
     width: 96%;
     height: 30px;
     font-family: 'Radiance', sans-serif;
-    box-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
     margin-bottom: 3px;
 }
+
 .CVCCardListing:hover {
-    box-shadow: 0 0 2px rgba(255,255,255,1);
+    box-shadow: 0 0 2px rgba(255, 255, 255, 1);
     cursor: pointer;
 }
+
 .CVCCardListingMiniImage {
     width: 30px;
-    background-color: rgba(0,0,0,0.5);
+    background-color: rgba(0, 0, 0, 0.5);
     float: left;
     line-height: 0;
 }
+
 .CVCCardListingMiniImage img {
     width: 100%;
 }
+
 .CVCCardListingCardCost {
     width: 30px;
     float: left;
 }
+
 .CVCCardListingCardCostMana {
     background-image: url('../Images/Styles/ManaIconCL.png');
     background-size: 100%;
@@ -543,6 +651,7 @@
     font-size: 16pt;
     color: #eee;
 }
+
 .CVCCardListingCardCostGold {
     background-image: url('../Images/Styles/GC.png');
     background-size: 100%;
@@ -554,6 +663,7 @@
     font-size: 16pt;
     color: #eee;
 }
+
 .CVCCardListingCardName {
     width: calc(100% - 60px);
     padding-top: 5px;
@@ -562,59 +672,75 @@
     font-size: 12pt;
     letter-spacing: -0.04em;
     overflow-x: hidden;
-    white-space:nowrap
+    white-space: nowrap
 }
+
 .CVCCardListingR {
     background: linear-gradient(170deg, rgba(134, 14, 32, 0.8) 20%, rgba(199, 13, 41, 0.3));
 }
+
 .CVCCardListingU {
-    background: linear-gradient(170deg, rgba(11,53,78,0.9) 20%, rgba(14,73,105,0.6));
+    background: linear-gradient(170deg, rgba(11, 53, 78, 0.9) 20%, rgba(14, 73, 105, 0.6));
 }
+
 .CVCCardListingB {
-    background: linear-gradient(170deg, rgba(47,46,52,0.9) 20%, rgba(33,32,37,0.6));
+    background: linear-gradient(170deg, rgba(47, 46, 52, 0.9) 20%, rgba(33, 32, 37, 0.6));
 }
+
 .CVCCardListingG {
-    background: linear-gradient(170deg, rgba(62,90,50,0.9) 20%, rgba(47,72,36,0.6));
+    background: linear-gradient(170deg, rgba(62, 90, 50, 0.9) 20%, rgba(47, 72, 36, 0.6));
 }
+
 .CVCCardListingI {
-    background: linear-gradient(170deg, rgba(122, 92, 34,0.8) 20%, rgba(102, 76, 28,0.3));
+    background: linear-gradient(170deg, rgba(122, 92, 34, 0.8) 20%, rgba(102, 76, 28, 0.3));
 }
+
 .CVCCardListingC {
-    background: linear-gradient(170deg, rgba(56, 62, 55,0.8) 20%, rgba(56, 62, 55,0.3));
+    background: linear-gradient(170deg, rgba(56, 62, 55, 0.8) 20%, rgba(56, 62, 55, 0.3));
 }
+
 .CVCCardListingR:hover {
     background: linear-gradient(170deg, rgba(134, 14, 32, 0.9) 20%, rgba(199, 13, 41, 0.5));
 }
+
 .CVCCardListingU:hover {
-    background: linear-gradient(170deg, rgba(17, 75, 109, 0.9) 20%, rgba(14,73,105,0.7));
+    background: linear-gradient(170deg, rgba(17, 75, 109, 0.9) 20%, rgba(14, 73, 105, 0.7));
 }
+
 .CVCCardListingB:hover {
-    background: linear-gradient(170deg, rgba(70, 68, 80, 0.9) 20%, rgba(33,32,37,0.7));
+    background: linear-gradient(170deg, rgba(70, 68, 80, 0.9) 20%, rgba(33, 32, 37, 0.7));
 }
+
 .CVCCardListingG:hover {
-    background: linear-gradient(170deg, rgba(77, 112, 61, 0.9) 20%, rgba(47,72,36,0.7));
+    background: linear-gradient(170deg, rgba(77, 112, 61, 0.9) 20%, rgba(47, 72, 36, 0.7));
 }
+
 .CVCCardListingI:hover {
-    background: linear-gradient(170deg, rgba(122, 92, 34,0.9) 20%, rgba(102, 76, 28,0.7));
+    background: linear-gradient(170deg, rgba(122, 92, 34, 0.9) 20%, rgba(102, 76, 28, 0.7));
 }
+
 .CVCCardListingC:hover {
-    background: linear-gradient(170deg, rgba(56, 62, 55,0.9) 20%, rgba(56, 62, 55,0.6));
+    background: linear-gradient(170deg, rgba(56, 62, 55, 0.9) 20%, rgba(56, 62, 55, 0.6));
 }
+
 #ShareButton {
     width: 180px;
     margin-left: calc(50% - 90px);
     margin-top: 5px;
 }
+
 @media (max-width: 1090px) {
     .CardList_CardName {
         letter-spacing: -0.05em;
     }
 }
+
 @media (max-width: 1040px) {
     .CardList_CardName {
         letter-spacing: -0.1em;
     }
 }
+
 @media (pointer:coarse) {
     #CardViewerPage_Left {
         width: calc(100% - 420px);
@@ -641,7 +767,7 @@
     #CardViewerPageCardSubtitle {
         font-size: 30pt;
         color: #aaa;
-        font-family: 'Open Sans',sans-serif;
+        font-family: 'Open Sans', sans-serif;
         font-weight: 700;
     }
     .CardViewerPageSingleAbilityContainer {
@@ -666,7 +792,7 @@
         color: #ddd;
         font-size: 22pt;
         padding: 4px 8px;
-        background-color: rgba(0,0,0,0.3);
+        background-color: rgba(0, 0, 0, 0.3);
         border-radius: 0 0 10px 10px;
     }
     .CardViewerPageSigCardText {
@@ -679,14 +805,14 @@
         font-size: 26pt;
     }
     #CardViewerPageCardLore {
-        display:none;
+        display: none;
     }
     #CardViewerPageCardLoreMobile {
         display: block;
         font-size: 22pt;
         color: #999;
         font-weight: 700;
-        font-family: 'Open Sans',sans-serif;
+        font-family: 'Open Sans', sans-serif;
         padding: 30px 20px;
         text-align: justify;
     }
@@ -698,26 +824,26 @@
         box-shadow: 1px 1px 5px black;
     }
     .CardListItemContainerR {
-        background-image: url('../Images/Styles/CardList_FactionRed_1000px.png'), linear-gradient(170deg, rgba(59,8,16,0.8) 20%, rgb(103,14,28,0.3));
+        background-image: url('../Images/Styles/CardList_FactionRed_1000px.png'), linear-gradient(170deg, rgba(59, 8, 16, 0.8) 20%, rgb(103, 14, 28, 0.3));
         background-size: 1000px 100%;
     }
     .CardListItemContainerB {
-        background-image: url('../Images/Styles/CardList_FactionBlack_1000px.png'), linear-gradient(170deg, rgba(42,41,47,0.8) 20%, rgba(28,27,32,0.3));
+        background-image: url('../Images/Styles/CardList_FactionBlack_1000px.png'), linear-gradient(170deg, rgba(42, 41, 47, 0.8) 20%, rgba(28, 27, 32, 0.3));
         background-size: 1000px 100%;
     }
     .CardListItemContainerU {
-        background-image: url('../Images/Styles/CardList_FactionBlue_1000px.png'), linear-gradient(170deg, rgba(11,53,78,0.8) 20%, rgba(14,73,105,0.3));
+        background-image: url('../Images/Styles/CardList_FactionBlue_1000px.png'), linear-gradient(170deg, rgba(11, 53, 78, 0.8) 20%, rgba(14, 73, 105, 0.3));
         background-size: 1000px 100%;
     }
     .CardListItemContainerG {
-        background-image: url('../Images/Styles/CardList_FactionGreen_1000px.png'), linear-gradient(170deg, rgba(62,90,50,0.8) 20%, rgba(47,72,36,0.3));
+        background-image: url('../Images/Styles/CardList_FactionGreen_1000px.png'), linear-gradient(170deg, rgba(62, 90, 50, 0.8) 20%, rgba(47, 72, 36, 0.3));
         background-size: 1000px 100%;
     }
     .CardList_CardMiniPicture {
         width: 90px;
         height: 90px;
         float: left;
-        background-color: rgba(0,0,0,0.6);
+        background-color: rgba(0, 0, 0, 0.6);
     }
     .CardList_CardMiniPicture img {
         width: 100%;
@@ -732,5 +858,5 @@
         height: 60px;
         padding: 20px 0 0 10px;
         font-size: 28pt;
-    }    
+    }
 }

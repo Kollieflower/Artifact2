@@ -4,22 +4,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans');
 
 @font-face {
-	font-family: 'Radiance';
-	src: url('fonts/Radiance-Regular.otf') format('opentype');
-	font-weight: normal;
-	font-style: normal;
+    font-family: 'Radiance';
+    src: url('fonts/Radiance-Regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
 }
+
 @font-face {
-	font-family: 'RadianceCon';
-	src: url('fonts/radiance-regularcondensed-fixed.otf') format('opentype');
-	font-weight: normal;
-	font-style: normal;
+    font-family: 'RadianceCon';
+    src: url('fonts/radiance-regularcondensed-fixed.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
 }
 
 html, body {
     margin: 0;
     padding: 0;
 }
+
 body {
     background-image: url('../Images/Styles/PageBG.jpg');
     background-position: top center;
@@ -28,6 +30,7 @@ body {
     display: block;
     background-color: #0e0c10;
 }
+
 .SiteHeader {
     position: relative;
     width: 100%;
@@ -37,6 +40,7 @@ body {
     z-index: 1;
     border-bottom: 2px solid black;
 }
+
 .SiteHeaderBackground {
     position: relative;
     z-index: -1;
@@ -45,6 +49,7 @@ body {
     text-align: center;
     overflow: hidden;
 }
+
 .SiteHeaderInner {
     display: flex;
     align-items: center;
@@ -55,6 +60,7 @@ body {
     margin-top: -50px;
     color: white;
 }
+
 .SiteHeaderLogo {
     height: 50px;
     width: 192px;
@@ -62,14 +68,15 @@ body {
     justify-content: center;
     align-items: center;
 }
+
 .SiteHeaderNav {
     display: flex;
-
     list-style: none;
     margin: 0;
     margin-left: 30px;
     padding: 0;
 }
+
 .SiteHeaderNav li {
     display: flex;
     align-items: center;
@@ -77,37 +84,44 @@ body {
     height: 50px;
     width: 190px;
     border-right: 2px solid black;
-    font-family: 'Open Sans',sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 14pt;
     transform: skew(-30deg);
 }
+
 .SiteHeaderNav a {
     color: #ddd;
     text-decoration: none;
 }
+
 .SiteHeaderButtonUnselected {
-    background-color: rgba(150,43,222,0.05);
+    background-color: rgba(150, 43, 222, 0.05);
     cursor: pointer;
 }
+
 .SiteHeaderButtonUnselected:hover {
-    background-color: rgba(150,43,222,0.05);
+    background-color: rgba(150, 43, 222, 0.05);
     text-shadow: 0 0 20px rgb(35, 100, 240);
 }
+
 .SiteHeaderButtonSelected {
     background-color: rgba(65, 46, 77, 0.45);
     background-image: url('../Images/Styles/SiteHeaderButtonActive_190px.png');
     text-shadow: 0 0 20px white;
     cursor: default;
 }
+
 .SiteHeaderButtonText {
     transform: skew(30deg);
     user-select: none;
 }
+
 .RestrictWidth {
     margin: 0 auto;
     max-width: 1150px;
     min-width: 975px;
 }
+
 #backgroundcontainer {
     position: fixed;
     top: 0px;
@@ -116,66 +130,78 @@ body {
     height: 100%;
     text-align: center;
 }
+
 #backgroundcontainer video {
     height: 100%;
 }
+
 #PageContainer {
     min-height: 500px;
 }
+
 #PageHeader {
     font-family: 'Radiance', sans-serif;
     padding-top: 10px;
     margin-bottom: 10px;
-    background-color: rgba(255,255,255,0.1);
-    box-shadow: 0 5px 10px rgba(255,255,255,0.2);
+    background-color: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 5px 10px rgba(255, 255, 255, 0.2);
 }
+
 #PageHeaderTitle {
     color: #eee;
     font-size: 32pt;
     font-weight: 700;
     text-shadow: 2px 2px 5px black;
 }
+
 #PageHeaderSubtitle {
     color: #eee;
     font-size: 18pt;
     font-weight: 700;
     text-shadow: 2px 2px 5px black;
 }
+
 .CursorPointer {
     cursor: pointer;
 }
+
 .TextColour_Golden {
     background: -webkit-linear-gradient(#d0b6ac, #a2928c);
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent; 
+    -webkit-text-fill-color: transparent;
     text-shadow: none;
 }
+
 .TextColour_Red {
     color: rgb(211, 8, 8);
 }
+
 #SpecialTextTooltip {
     position: absolute;
     z-index: 3;
     max-width: 320px;
     border-radius: 3px;
-    background-color: rgba(40,40,40,0.8);
+    background-color: rgba(40, 40, 40, 0.8);
     background-image: url("../Images/Styles/SpecialTextTooltip.jpg");
     font-family: "Radiance", sans-serif;
     padding: 5px 7px;
     box-shadow: 0 0 5px black;
     display: none;
 }
+
 #SpecialTextTitle {
     color: #ddd;
     text-decoration-line: underline;
     text-decoration-style: dashed;
     font-size: 14pt;
 }
+
 #SpecialTextDesc {
     color: #ccc;
     font-size: 12pt;
     padding: 3px 0;
 }
+
 .ArtifactButtonSmall {
     font-family: 'Radiance', sans-serif;
     font-size: 14pt;
@@ -188,40 +214,49 @@ body {
     cursor: pointer;
     transition: color 0.15s ease-out;
 }
+
 .ArtifactButtonSmall:hover {
     color: #ddd;
     text-shadow: 0 0 10px #438994;
     background: linear-gradient(170deg, #36434e 20%, #373953);
 }
+
 .OnlyMobile {
-    display:none;
+    display: none;
 }
+
 @media (max-width: 1090px) {
     .CardList_CardName {
         letter-spacing: -0.05em;
     }
 }
+
 @media (max-width: 1040px) {
     .CardList_CardName {
         letter-spacing: -0.1em;
     }
 }
+
 @media (pointer:coarse) {
     .OnlyMobile {
-        display:block;
+        display: block;
     }
 }
-@media (pointer:coarse) and (max-width: 1100px){
-    .SiteHeaderInner{
+
+@media (pointer:coarse) and (max-width: 1100px) {
+    .SiteHeaderInner {
         width: unset;
     }
 }
+
 .float {
     float: left;
 }
+
 .floatr {
     float: right;
 }
+
 .clear {
     clear: both;
 }

@@ -3,8 +3,9 @@
     font-size: 16pt;
     color: #eee;
 }
+
 #DeckCodeInputField {
-    background-color: rgba(255,255,255,0.1);
+    background-color: rgba(255, 255, 255, 0.1);
     font-family: monospace;
     font-size: 12pt;
     color: #eee;
@@ -12,52 +13,63 @@
     padding: 3px;
     margin: 10px 0;
 }
+
 #LoadedDeckContainer {
     display: none;
     color: #eee;
     font-size: 14pt;
     font-family: "Radiance", sans-serif;
 }
-#DeckCodeInputTitle{
+
+#DeckCodeInputTitle {
     color: #eee;
     font-size: 16pt;
 }
+
 #DeckCodeErrorContainer {
     color: rgb(233, 192, 192);
     display: none;
 }
+
 .DeckCodeErrorImg {
     width: 36px;
     float: left;
 }
+
 #DeckCodeErrorMsg {
     width: calc(100% - 50px);
     float: left;
     padding: 12px 0 0 10px;
 }
-.DeckViewer_HeroCard{
+
+.DeckViewer_HeroCard {
     float: left;
     font-size: 14pt;
 }
+
 #DeckViewer_HeroCard1 {
     transform: perspective(400px) rotateY(2.5deg);
     width: calc(19% - 1px);
     padding: 0 0.5%;
 }
+
 #DeckViewer_HeroCard2 {
     transform: perspective(400px) rotateY(1deg);
     width: calc(18.7% - 1px);
     padding: 2px 0.7%;
 }
+
 #DeckViewer_HeroCard3 {
     width: calc(18.5% - 1px);
     padding: 4px 0.7%;
 }
+
 #DeckViewer_HeroCard4 {
     transform: perspective(400px) rotateY(-1deg);
     width: calc(18.7% - 1px);
     padding: 2px 0.7%;
 }
+
 #DeckViewer_HeroCard5 {
     transform: perspective(400px) rotateY(-2.5deg);
     width: calc(19% - 1px);
@@ -71,10 +83,12 @@
     background-color: rgba(29, 31, 44, 0.4);
     box-shadow: 0 2px 4px black;
 }
+
 #DeckViewerTitleContainer {
     padding: 2px;
     background-image: url("../Images/Styles/DeckViewerDeckTitleBG.jpg");
 }
+
 #DeckViewerDeckTitle {
     font-size: 20pt;
     font-weight: bold;
@@ -82,40 +96,48 @@
     padding: 10px;
     float: left;
 }
+
 #DeckViewerHeroesContainer {
     margin-top: 10px;
     margin-bottom: 5px;
 }
+
 #DeckViewerCardsAndStats {
     width: 100%;
     min-height: 50px;
 }
+
 #DeckViewerCardsAndStats_L {
     width: 50%;
     min-height: 50px;
     float: left;
 }
+
 #DeckViewerCardsAndStats_R {
     width: 50%;
     min-height: 50px;
     float: left;
 }
+
 #DeckViewerStats {
     width: 100%;
     min-height: 40px;
 }
+
 #DeckViewerCardTypeStats {
     width: 30%;
     padding: 0 10%;
     float: left;
     cursor: default;
 }
+
 #DeckViewerItemTypeStats {
     width: 40%;
     padding: 0 5%;
     float: left;
     cursor: default;
 }
+
 .DeckViewerCardAndItemTypeStatsHeader {
     font-size: 14pt;
     color: #bbb;
@@ -123,16 +145,19 @@
     text-align: center;
     padding-bottom: 5px;
 }
+
 .DeckViewerCardTypeContainer {
     width: 33%;
     text-align: center;
     float: left;
 }
+
 .DeckViewerItemTypeContainer {
     width: 25%;
     text-align: center;
     float: left;
 }
+
 .DeckViewerCardTypeSymbol {
     width: 100%;
     text-align: center;
@@ -140,32 +165,37 @@
     color: #ccc;
     line-height: 0.8em;
 }
+
 .DeckViewerCardTypeAmount {
     width: 100%;
     text-align: center;
     font-size: 12pt;
     color: #ddd;
 }
+
 #DeckViewerCardManaColourStats {
     padding: 10px 0;
 }
+
 #DeckViewerCardManaColourGraphContainer {
     width: 60%;
     box-shadow: inset 2px 2px 6px black;
     padding: 8px 0 8px 2%;
     margin: 0 5%;
-    background-color: rgb(0,0,0,0.2);
+    background-color: rgb(0, 0, 0, 0.2);
     float: left;
     cursor: default;
 }
+
 .DeckViewerCardManaColourChartBarContainer {
-    border: 2px inset rgb(50,50,60);
+    border: 2px inset rgb(50, 50, 60);
     height: 80px;
     width: calc(11% - 4px);
     margin: 0 0.5%;
     float: left;
-    background-color: rgba(0,0,0,0.3);
+    background-color: rgba(0, 0, 0, 0.3);
 }
+
 .DeckViewerCardManaColourChartNumber {
     font-size: 12pt;
     color: #ddd;
@@ -173,29 +203,34 @@
     height: 20px;
     width: 100%;
     text-align: center;
-    background-color: rgba(0,0,0,0.3);
+    background-color: rgba(0, 0, 0, 0.3);
 }
+
 .DeckViewerCardManaColourChartBarOuter {
     height: 60px;
     width: 100%;
 }
+
 .DeckViewerCardManaColourChartBarInner {
     width: 100%;
-}  
+}
+
 .DeckViewerCardManaColourChartBarPadding {
     width: 100%;
 }
+
 #DeckViewerCardColourBoxChartContainer {
     box-shadow: inset 2px 2px 6px black;
     width: 90px;
     height: 90px;
     margin: 2px 0 0 4%;
-    background-color: rgb(0,0,0,0.2);
+    background-color: rgb(0, 0, 0, 0.2);
     float: left;
     cursor: default;
 }
+
 .DeckViewerCardColourBoxChartInner {
-    border: 3px inset rgb(50,50,60);
+    border: 3px inset rgb(50, 50, 60);
     width: calc(42% - 6px);
     height: calc(39% - 6px);
     padding-top: 4%;
@@ -206,44 +241,53 @@
     color: #ddd;
     font-weight: bold;
 }
+
 .DeckViewerCardManaColouringR {
     background: linear-gradient(170deg, rgba(134, 14, 32, 0.8) 20%, rgba(199, 13, 41, 0.3));
 }
+
 .DeckViewerCardManaColouringU {
-    background: linear-gradient(170deg, rgba(11,53,78,0.9) 20%, rgba(14,73,105,0.6));
+    background: linear-gradient(170deg, rgba(11, 53, 78, 0.9) 20%, rgba(14, 73, 105, 0.6));
 }
+
 .DeckViewerCardManaColouringB {
-    background: linear-gradient(170deg, rgba(47,46,52,0.9) 20%, rgba(33,32,37,0.6));
+    background: linear-gradient(170deg, rgba(47, 46, 52, 0.9) 20%, rgba(33, 32, 37, 0.6));
 }
+
 .DeckViewerCardManaColouringG {
-    background: linear-gradient(170deg, rgba(62,90,50,0.9) 20%, rgba(47,72,36,0.6));
+    background: linear-gradient(170deg, rgba(62, 90, 50, 0.9) 20%, rgba(47, 72, 36, 0.6));
 }
+
 #ItemCardListContainer {
     width: calc(100% - 12px);
     padding: 15px 6px;
 }
+
 #NonHeroNonItemCardListContainer {
     width: calc(100% - 36px);
     padding: 12px;
     box-shadow: inset 2px 2px 6px black;
     margin-bottom: 15px;
-    background-color: rgba(0,0,0,0.3);
+    background-color: rgba(0, 0, 0, 0.3);
     min-height: 670px;
 }
+
 #ItemCardListContainer {
     width: calc(100% - 48px);
     padding: 12px;
     margin-left: 12px;
     box-shadow: inset 2px 2px 6px black;
     margin-bottom: 15px;
-    background-color: rgba(0,0,0,0.3);
+    background-color: rgba(0, 0, 0, 0.3);
     min-height: 450px;
 }
+
 #CardPreviewTooltip {
     position: absolute;
     z-index: 3;
     display: none;
 }
+
 .CardListItemContainer {
     background-size: 100%;
     width: 100%;
@@ -252,90 +296,110 @@
     box-shadow: 1px 1px 5px black;
     cursor: pointer;
 }
+
 .CardListItemContainerR {
-    background-image: url('../Images/Styles/CardList_FactionRed_1000px.png'), linear-gradient(170deg, rgba(59,8,16,0.8) 20%, rgba(103,14,28,0.3));
+    background-image: url('../Images/Styles/CardList_FactionRed_1000px.png'), linear-gradient(170deg, rgba(59, 8, 16, 0.8) 20%, rgba(103, 14, 28, 0.3));
     background-position: top right;
     background-size: 500px 100%;
 }
+
 .CardListItemContainerB {
-    background-image: url('../Images/Styles/CardList_FactionBlack_1000px.png'), linear-gradient(170deg, rgba(42,41,47,0.8) 20%, rgba(28,27,32,0.3));
+    background-image: url('../Images/Styles/CardList_FactionBlack_1000px.png'), linear-gradient(170deg, rgba(42, 41, 47, 0.8) 20%, rgba(28, 27, 32, 0.3));
     background-position: top right;
     background-size: 500px 100%;
 }
+
 .CardListItemContainerU {
-    background-image: url('../Images/Styles/CardList_FactionBlue_1000px.png'), linear-gradient(170deg, rgba(11,53,78,0.8) 20%, rgba(14,73,105,0.3));
+    background-image: url('../Images/Styles/CardList_FactionBlue_1000px.png'), linear-gradient(170deg, rgba(11, 53, 78, 0.8) 20%, rgba(14, 73, 105, 0.3));
     background-position: top right;
     background-size: 500px 100%;
 }
+
 .CardListItemContainerG {
-    background-image: url('../Images/Styles/CardList_FactionGreen_1000px.png'), linear-gradient(170deg, rgba(62,90,50,0.8) 20%, rgba(47,72,36,0.3));
+    background-image: url('../Images/Styles/CardList_FactionGreen_1000px.png'), linear-gradient(170deg, rgba(62, 90, 50, 0.8) 20%, rgba(47, 72, 36, 0.3));
     background-position: top right;
     background-size: 500px 100%;
 }
+
 .CardListItemContainerI {
-    background: linear-gradient(170deg, rgba(122, 92, 34,0.8) 20%, rgba(102, 76, 28,0.3));
+    background: linear-gradient(170deg, rgba(122, 92, 34, 0.8) 20%, rgba(102, 76, 28, 0.3));
 }
+
 .CardListItemContainerC {
-    background: linear-gradient(170deg, rgba(56, 62, 55,0.8) 20%, rgba(56, 62, 55,0.3));
+    background: linear-gradient(170deg, rgba(56, 62, 55, 0.8) 20%, rgba(56, 62, 55, 0.3));
 }
+
 .CardList_CardMiniPicture {
     width: 45px;
     height: 45px;
     float: left;
-    background-color: rgba(0,0,0,0.6);
+    background-color: rgba(0, 0, 0, 0.6);
 }
+
 .CardList_CardMiniPicture img {
     width: 100%;
 }
+
 .CardList_CardTypeIcon {
     width: 22px;
-    margin:11px 0 0 1px;
+    margin: 11px 0 0 1px;
     height: 22px;
     float: left;
     background-size: 90%;
     background-repeat: no-repeat;
     background-position: center;
 }
+
 .CardList_CardTypeIconHero {
     background-image: url('../Images/MiscIcons/Hero.png');
 }
+
 .CardList_CardTypeIconCreep {
     background-image: url('../Images/MiscIcons/Creep.png');
 }
+
 .CardList_CardTypeIconSpell {
     background-image: url('../Images/MiscIcons/Spell.png');
 }
+
 .CardList_CardTypeIconImprovement {
     background-image: url('../Images/MiscIcons/TowerEnchantment.png');
 }
+
 .CardList_CardTypeIconWeapon {
     background-image: url('../Images/MiscIcons/Weapon.png');
 }
+
 .CardList_CardTypeIconArmor {
     background-image: url('../Images/MiscIcons/Armor.png');
 }
+
 .CardList_CardTypeIconAccessory {
     background-image: url('../Images/MiscIcons/Accessory.png');
 }
+
 .CardList_CardTypeIconConsumable {
     background-image: url('../Images/MiscIcons/Consumable.png');
 }
+
 .CardList_ManaCost {
     background-image: url('../Images/Styles/ManaIconCL.png');
     background-size: 100%;
     font-family: 'Domine', sans-serif;
 }
+
 .CardList_GoldCost {
     background-image: url('../Images/Styles/GC.png');
     background-size: 100%;
     font-family: 'Radiance', sans-serif;
     letter-spacing: -0.1em;
 }
+
 .CardList_Cost {
     font-size: 21pt;
     text-align: center;
     width: 36px;
-    margin:4px 0 0 2px;
+    margin: 4px 0 0 2px;
     padding-top: 2px;
     height: 34px;
     float: left;
@@ -344,6 +408,7 @@
     background-position: center;
     background-repeat: no-repeat;
 }
+
 .CardList_CardName {
     width: calc(100% - 205px);
     height: 34px;
@@ -353,6 +418,7 @@
     color: #ddd;
     float: left;
 }
+
 .CardList_CardCount {
     width: 35px;
     height: 34px;
@@ -362,28 +428,34 @@
     color: #ddd;
     float: left;
 }
+
 .CardList_HeroIcon {
     width: 41px;
     height: 41px;
     padding: 2px 0 0 3px;
     float: left;
 }
+
 .CardList_HeroIcon img {
     width: 95%;
 }
+
 #ShareCurrentDeckButton {
     float: right;
     margin: 4px 8px 0 0;
 }
+
 #LoadNewDeckButton {
     float: right;
     margin: 4px 5px 0 0;
 }
+
 #LoadDeckButton {
     margin-bottom: 10px;
 }
+
 #hiddenClipboard {
     position: absolute;
     opacity: 0;
-    left: -200px
+    left: -200px;
 }
