@@ -901,7 +901,31 @@
 		"related_cards": ["10955_0"],
 		"crosslane": false,
 		"quick": false
-	}]
+	}, {
+		"release_date": "2020-06-12",
+		"card_type": "Item",
+		"card_subtype": "Accessory",
+		"card_name": {
+			"english": "Necronomicon"
+		},
+		"set": 1,
+		"rarity": 1,
+		"image": "10944_0",
+		"miniimage": "10944_0",
+		"cost": 1,
+		"gcost": 15,
+		"text": {
+			"english": "/n +6[HP] /n /n Summon Demonic Archers instead of Melee Creeps."
+		},
+		"attack": 0,
+		"armour": 0,
+		"hp": 6,
+		"abilities": [],
+		"related_cards": ["10955_0"],
+		"crosslane": false,
+		"quick": false
+	}
+]
 }, {
 	"card_id": 10955,
 	"hide_from_card_list": "Uncollectable",
@@ -1110,6 +1134,32 @@
 		"abilities": ["210014_0"],
 		"signature": ["10055_0"],
 		"related_cards": ["10990_0"]
+	}, {
+		"release_date": "2020-06-12",
+		"card_type": "Hero",
+		"card_name": {
+			"english": "Prellex"
+		},
+		"lore": {
+			"text": {
+				"english": "Brothers and sisters, The Ancient is coming. With every passing day my visions grow stronger: A violet sky. A sundered moon. And an Ancient voice that whispers 'Prepare for my arrival.' Prepare. Such a simple word that does no justice to the work that lies before us... We must be heralds; walking testimonies to the benevolence of The Ancient. Spreading the word of its glorious arrival, no matter if that message is received with joy or scorn. We must be architects; building not just this monastery for those who believe what I have seen, but an entire world that is worthy of the Ancient's splendor. We must be zealots; willing to lay down our lives in defense of this sacred space, because rest assured we are at war. Kanna and her heretics will stop at nothing to undo the work that we've accomplished, and that is why we must return in kind."
+			},
+			"tag": {
+				"english": "Prellex, Priestess of the Radiant"
+			}
+		},
+		"set": 1,
+		"rarity": 1,
+		"colour": "U",
+		"image": "10053_0",
+		"miniimage": "10053_0",
+		"icon": "10053_0",
+		"attack": 2,
+		"armour": 0,
+		"hp": 5,
+		"abilities": ["210014_1"],
+		"signature": ["10055_0"],
+		"related_cards": ["10990_0"]
 	}]
 }, {
 	"card_id": 10055,
@@ -1139,7 +1189,7 @@
 		},
 		"crosslane": false,
 		"quick": false,
-		"is_signature": "10053_1"
+		"is_signature": "10053_2"
 	}]
 }, {
 	"card_id": 10990,
@@ -5023,7 +5073,31 @@
 		"abilities": [],
 		"crosslane": false,
 		"quick": false
-	}]
+	},
+	{
+		"release_date": "2020-06-12",
+		"card_type": "Item",
+		"card_subtype": "Weapon",
+		"card_name": {
+			"english": "Mjolnir"
+		},
+		"set": 1,
+		"rarity": 3,
+		"image": "11013_0",
+		"miniimage": "11013_0",
+		"cost": 1,
+		"gcost": 25,
+		"text": {
+			"english": "/n +5[ATT]/n After attacking a unit in battle, deal 3 damage to it. Repeat 3 more times: [RP] Jump left or right and deal 3 damage."
+		},
+		"attack": 5,
+		"armour": 0,
+		"hp": 0,
+		"abilities": [],
+		"crosslane": false,
+		"quick": false
+	}
+]
 }, {
 	"card_id": 10625,
 	"versions": [{
@@ -5928,7 +6002,26 @@
 		"abilities": ["210080_0", "210081_0"],
 		"signature": ["11033_0"],
 		"related_cards": ["11052_0"]
-	}]
+	},{
+		"release_date": "2020-05-25",
+		"card_type": "Hero",
+		"card_name": {
+			"english": "Dragon Knight"
+		},
+		"set": 1,
+		"rarity": 5,
+		"colour": "G",
+		"image": "10982_0",
+		"miniimage": "10982_0",
+		"icon": "10982_0",
+		"attack": 2,
+		"armour": 0,
+		"hp": 6,
+		"abilities": ["210080_1", "210081_0"],
+		"signature": ["11033_0"],
+		"related_cards": ["11052_0"]
+	}
+]
 }, {
 	"card_id": 11033,
 	"versions": [{
@@ -6090,7 +6183,7 @@
 		"abilities": [],
 		"crosslane": false,
 		"quick": false,
-		"related_cards": ["10611_0"]
+		"related_cards": ["10611_1"]
 	}]
 }, {
 	"card_id": 10761,
@@ -6850,31 +6943,76 @@
 		"crosslane": false,
 		"quick": false,
 		"related_cards": ["10638_0"]
+	}, {
+		"release_date": "2020-06-12",
+		"card_type": "Creep",
+		"card_name": {
+			"english": "Wildwing Bait"
+		},
+		"set": 1,
+		"rarity": 2,
+		"colour": "U",
+		"image": "10611_0",
+		"miniimage": "10611_0",
+		"cost": 3,
+		"text": {
+			"english": "/n Summon Wildwings instead of Melee Creeps."
+		},
+		"attack": 0,
+		"armour": 0,
+		"hp": 1,
+		"abilities": [],
+		"crosslane": false,
+		"quick": false,
+		"related_cards": ["10638_0"]
 	}]
 }, {
 	"card_id": 10751,
 	"versions": [{
-		"release_date": "2020-05-25",
-		"card_type": "Creep",
-		"card_name": {
-			"english": "Resonant Construct"
+			"release_date": "2020-05-25",
+			"card_type": "Creep",
+			"card_name": {
+				"english": "Resonant Construct"
+			},
+			"set": 1,
+			"rarity": 3,
+			"colour": "U",
+			"image": "10751_0",
+			"miniimage": "10751_0",
+			"cost": 4,
+			"text": {
+				"english": " /n Deploy Resonant Constructs instead of Melee Creeps. /n +1[ATT] when you play a spell or enchantment in any lane."
+			},
+			"attack": 0,
+			"armour": 0,
+			"hp": 3,
+			"abilities": [],
+			"crosslane": false,
+			"quick": false
 		},
-		"set": 1,
-		"rarity": 3,
-		"colour": "U",
-		"image": "10751_0",
-		"miniimage": "10751_0",
-		"cost": 4,
-		"text": {
-			"english": " /n Deploy Resonant Constructs instead of Melee Creeps. /n +1[ATT] when you play a spell or enchantment in any lane."
-		},
-		"attack": 0,
-		"armour": 0,
-		"hp": 3,
-		"abilities": [],
-		"crosslane": false,
-		"quick": false
-	}]
+		{
+			"release_date": "2020-06-12",
+			"card_type": "Creep",
+			"card_name": {
+				"english": "Resonant Construct"
+			},
+			"set": 1,
+			"rarity": 3,
+			"colour": "U",
+			"image": "10751_0",
+			"miniimage": "10751_0",
+			"cost": 4,
+			"text": {
+				"english": " /n Summon Resonant Constructs instead of Melee Creeps. /n +1[ATT] when you play a spell or enchantment in any lane."
+			},
+			"attack": 0,
+			"armour": 0,
+			"hp": 3,
+			"abilities": [],
+			"crosslane": false,
+			"quick": false
+		}
+	]
 }, {
 	"card_id": 10137,
 	"versions": [{
@@ -6991,7 +7129,26 @@
 		"abilities": [],
 		"crosslane": false,
 		"quick": false
-	}]
+	},{
+		"release_date": "2020-06-12",
+		"card_type": "Spell",
+		"card_name": {
+			"english": "Essence Font"
+		},
+		"set": 1,
+		"rarity": 1,
+		"colour": "U",
+		"image": "10800_0",
+		"miniimage": "10800_0",
+		"cost": 6,
+		"text": {
+			"english": "/n Enchant Caster /n Restore 1 Mana after you play any card from this lane or activate an ability in this lane."
+		},
+		"abilities": [],
+		"crosslane": false,
+		"quick": false
+	}
+]
 }, {
 	"card_id": 10959,
 	"versions": [{
@@ -8967,6 +9124,24 @@
 		"crosslane": true,
 		"quick": false,
 		"related_cards": ["10082_0"]
+	}, {
+		"release_date": "2020-06-12",
+		"card_type": "Spell",
+		"card_name": {
+			"english": "Spring the Trap"
+		},
+		"set": 1,
+		"rarity": 3,
+		"colour": "R",
+		"image": "10417_0",
+		"miniimage": "10417_0",
+		"cost": 7,
+		"text": {
+			"english": " /n Play two Centaur Poachers into any lane./n[TG]Cross Lane[ET]"
+		},
+		"crosslane": true,
+		"quick": false,
+		"related_cards": ["10082_0"]
 	}]
 }, {
 	"card_id": 10425,
@@ -10266,8 +10441,7 @@
 	}]
 }, {
 	"card_id": 10798,
-	"versions": [
-		{
+	"versions": [{
 			"release_date": "2020-05-25",
 			"card_type": "Spell",
 			"card_name": {
@@ -10284,24 +10458,42 @@
 			},
 			"crosslane": true,
 			"quick": false
-		},{
-		"release_date": "2020-06-09",
-		"card_type": "Spell",
-		"card_name": {
-			"english": "Body Modifications"
-		},
-		"set": 1,
-		"rarity": 3,
-		"colour": "U",
-		"image": "10798_0",
-		"miniimage": "10798_0",
-		"cost": 3,
-		"text": {
-			"english": " /n Swap colors and items permanently between a hero in this lane and another hero in any lane./n[TG]Cross Lane[ET]"
-		},
-		"crosslane": true,
-		"quick": false
-	}]
+		}, {
+			"release_date": "2020-06-09",
+			"card_type": "Spell",
+			"card_name": {
+				"english": "Body Modifications"
+			},
+			"set": 1,
+			"rarity": 3,
+			"colour": "U",
+			"image": "10798_0",
+			"miniimage": "10798_0",
+			"cost": 3,
+			"text": {
+				"english": " /n Swap colors and items permanently between a hero in this lane and another hero in any lane./n[TG]Cross Lane[ET]"
+			},
+			"crosslane": true,
+			"quick": false
+		}, {
+			"release_date": "2020-06-12",
+			"card_type": "Spell",
+			"card_name": {
+				"english": "Body Modifications"
+			},
+			"set": 1,
+			"rarity": 3,
+			"colour": "U",
+			"image": "10798_0",
+			"miniimage": "10798_0",
+			"cost": 3,
+			"text": {
+				"english": " /n Swap colors and items permanently between a hero in this lane and another hero on the same team in any lane./n[TG]Cross Lane[ET]"
+			},
+			"crosslane": true,
+			"quick": false
+		}
+	]
 }, {
 	"card_id": 10082,
 	"hide_from_card_list": "Uncollectable",
@@ -10324,7 +10516,7 @@
 		"armour": 0,
 		"hp": 4,
 		"abilities": [],
-		"related_cards": ["10417_0"],
+		"related_cards": ["10417_1"],
 		"crosslane": false,
 		"quick": false
 	}]
@@ -10527,6 +10719,23 @@
 		"hp": 4,
 		"abilities": ["210084_0"],
 		"signature": ["11058_0"]
+	},{
+		"release_date": "2020-06-12",
+		"card_type": "Hero",
+		"card_name": {
+			"english": "Nyx Assassin"
+		},
+		"set": 1,
+		"rarity": 4,
+		"colour": "B",
+		"image": "11056_0",
+		"miniimage": "11056_0",
+		"icon": "11056_0",
+		"attack": 3,
+		"armour": 0,
+		"hp": 4,
+		"abilities": ["210084_1"],
+		"signature": ["11058_0"]
 	}]
 }, {
 	"card_id": 11058,
@@ -10547,6 +10756,6 @@
 		},
 		"crosslane": false,
 		"quick": false,
-		"is_signature": "11056_0"
+		"is_signature": "11056_1"
 	}]
 }]

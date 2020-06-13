@@ -13,7 +13,7 @@
                 "image": "210001_0",
                 "cost": 1,
                 "text":{
-                    "english":"Active 3[AC], 1 Mana: Move Mirana up to 5 slots away. Give Mirana and new neighbors +2[ATT]. Cross lane."
+                    "english":"Active 3[AC], 1 Mana: Move Mirana up to 5 slots away. Give Mirana and new neighbors +2[ATT]. [TG]Cross Lane[ET]"
                 }
             }
         ]        
@@ -232,6 +232,19 @@
                 "cost": 0,
                 "text":{
                     "english":"Deploy to the right instead of the left and Mega Creeps instead of Melee Creeps. /n [TG]Deploy:[ET] Redeploy your leftmost Melee Creep."
+                }
+            },
+            {
+                "release_date":"2020-06-12",
+                "ability_type":"Reactive",
+                "ability_name":{
+                    "english":"Gather the Faithful"
+                 },
+                "cooldown": 0,
+                "image": "210014_0",
+                "cost": 0,
+                "text":{
+                    "english":"Summon Mega Creeps instead of Melee Creeps. Your Melee Creep are summoned on the right. /n [TG]Deploy:[ET] Resummon your leftmost Melee Creep."
                 }
             }
         ]
@@ -1450,6 +1463,19 @@
                 "text":{
                     "english":"[TG]Active 3[AC], 1 Mana:[ET] Transform to a Dragon for one round. /n When you deal battle damage to towers or units in dragon form, give them +3 Decay for 3 rounds."
                 }
+            },
+            {
+                "release_date":"2020-06-12",
+                "ability_type":"Active",
+                "ability_name":{
+                    "english":"Dragon Form"
+                 },
+                "cooldown": 3,
+                "image": "210080_0",
+                "cost": 1,
+                "text":{
+                    "english":"[TG]Active 3[AC], 1 Mana:[ET] Transform to a Dragon for one round. /n When you deal battle damage to towers or units in dragon form, give them +3 Decay for three rounds."
+                }
             }
         ]
     },
@@ -1525,6 +1551,18 @@
                 "cost": 1,
                 "text":{
                     "english":"[TG]Active 3[AC], 1 Mana:[ET] Move to a position in any lane. Nyx Assassin sneak attacks the new unit blocking it with +3[ATT]."
+                }
+            }, {
+                "release_date":"2020-06-12",
+                "ability_type":"Active",
+                "ability_name":{
+                    "english":"Vendetta"
+                 },
+                "cooldown": 3,
+                "image": "210084_0",
+                "cost": 1,
+                "text":{
+                    "english":"[TG]Active 3[AC], 1 Mana:[ET] Move to a position in any lane. Nyx Assassin sneak attacks the new unit blocking it with +3[ATT]./n[TG]Cross Lane[ET]"
                 }
             }
         ]
